@@ -1,0 +1,47 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #363636;
+    color: aliceblue;
+    min-height: 100vh;
+    font-size: 16px;
+}
+
+.container {
+    min-width: 100%;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+header.container {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.grid-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 60%;
+}
+
+.grid-col {
+    display: flex;
+}
+
+.grid-row {
+    border: 1px solid #ccc;
+    padding: 1.2em;
+}
+
+.modify-bg {
+    background-color: #b3aa5d;
+}
