@@ -15,33 +15,48 @@ body {
     font-size: 16px;
 }
 
-.container {
-    min-width: 100%;
-    margin: 0 auto;
-    padding: 50px;
+.playground {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 header.container {
     text-align: center;
     font-size: 1.5em;
+    padding: 1em;
 }
 
 .grid-container {
     display: flex;
+    margin: 0 auto;
     justify-content: center;
-    align-items: center;
-    max-width: 60%;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    width: 90%;
+    max-width: 1000px;
 }
 
 .grid-col {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .grid-row {
     border: 1px solid #ccc;
-    padding: 1.2em;
 }
 
 .modify-bg {
-    background-color: #b3aa5d;
+    background-color: #91021a;
+}
+
+#set-grid-size-btn {
+    padding: 1em;
+    border: none;
+    border-radius: 0.5em;
+    color: #cfbfb7;
+    background-color: #391205;
+    font-size: 0.7em;
+    margin-top: 0.5em;
 }
